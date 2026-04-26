@@ -1,0 +1,31 @@
+# ── SECRETS (NEVER commit these) ──────────────────
+backend/.env
+backend/firebase-service-account.json
+
+# ── Python ────────────────────────────────────────
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+*.egg-info/
+
+# ── Flutter ───────────────────────────────────────
+mobile/crisis_sync_app/.dart_tool/
+mobile/crisis_sync_app/build/
+mobile/crisis_sync_app/.flutter-plugins
+mobile/crisis_sync_app/.flutter-plugins-dependencies
+mobile/crisis_sync_app/.packages
+
+# ── Android ───────────────────────────────────────
+mobile/crisis_sync_app/android/.gradle/
+mobile/crisis_sync_app/android/local.properties
+mobile/crisis_sync_app/android/key.properties
+
+# ── IDE ───────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+
+# ── OS ────────────────────────────────────────────
+.DS_Store
+Thumbs.db

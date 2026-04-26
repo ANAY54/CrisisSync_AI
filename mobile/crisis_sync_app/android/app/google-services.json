@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "214001185570",
+    "project_id": "crisissync-ai-de28b",
+    "storage_bucket": "crisissync-ai-de28b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214001185570:android:331a52e684c7598b022b7b",
+        "android_client_info": {
+          "package_name": "com.example.crisis_sync_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMOI1qni3Vw6UbQlY9ZgaEra9O8ewHnaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
