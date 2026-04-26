@@ -32,7 +32,9 @@ db = firestore.client()
 
 # -------------------- GEMINI (new SDK) --------------------
 # -------------------- GEMINI --------------------
-client = genai.Client(api_key="AIzaSyAQpA986mKDNWzz0vN6FBskRV0jilJoaSQ")
+from dotenv import load_dotenv
+load_dotenv()
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 def safe_generate(prompt: str, retries: int = 3) -> str:
     last_error = None
